@@ -1,17 +1,13 @@
 {
   "name": "project-sklep",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Mini CRUD project dla kursu",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Aliaks1/project-sklep.git"
-  },
-  "keywords": [],
-  "author": "",
+  "author": "Aliaksandra Bryshten 69000",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Aliaks1/project-sklep/issues"

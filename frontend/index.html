@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Sklep</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sklep CRUD</h1>
+    </header>
+    <main>
+        <section id="product-form">
+            <h2>Dodaj produkt</h2>
+            <form id="form">
+                <input type="text" id="name" placeholder="Nazwa produktu" required>
+                <input type="number" id="price" placeholder="Cena" required>
+                <input type="text" id="category" placeholder="Kategoria" required>
+                <input type="number" id="stock" placeholder="Stan magazynu" required>
+                <button type="submit">Dodaj</button>
+            </form>
+        </section>
+        <section id="product-list">
+            <h2>Lista produktów</h2>
+            <ul id="list"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
