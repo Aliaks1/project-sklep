@@ -25,28 +25,6 @@ HTML / CSS / JavaScript (frontend)
 
 Bootstrap (stylizacja interfejsu)
 
-Struktura projektu
-project-sklep/
-│
-├── public/              # Pliki statyczne (CSS, JS, obrazy)
-│   ├── style.css
-│   └── script.js
-│
-├── routes/              # Definicje tras (np. obsługa produktów)
-│   └── productRoutes.js
-│
-├── views/               # Szablony HTML (jeśli używane)
-│   └── index.html
-│
-├── models/              # Definicje modeli Sequelize
-│   └── Product.js
-│
-├── config/              # Pliki konfiguracyjne (np. połączenie z bazą danych)
-│   └── config.js
-│
-├── server.js            # Główny plik serwera Express
-├── package.json         # Informacje o projekcie i zależnościach
-└── README.md            # Dokumentacja projektu
 
 Instalacja i uruchomienie
 
